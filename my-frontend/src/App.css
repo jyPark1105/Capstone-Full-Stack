@@ -1,0 +1,71 @@
+/* App.css */
+
+/* 전체 레이아웃 설정 */
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar 스타일 */
+.sidebar {
+  width: 25%;
+  background-color: #2d2d2d;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 메인 콘텐츠 영역 */
+.main-content {
+  flex: 1;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center; /* 콘텐츠 가운데 정렬 */
+}
+
+/* 블로그 제목 스타일 */
+.main-content h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #3b82f6;
+  margin-bottom: 1.5rem;
+}
+
+/* 버튼 스타일 */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+/* 유니티 게임 영역 */
+.unity-game-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.unity-game-container iframe {
+  width: 100%;
+  max-width: 800px; /* 최대 너비 설정 */
+  height: 500px;
+}
+
+/* 채팅 영역 */
+.chat-container {
+  display: flex;
+  justify-content: center;
+}
+
+.chat-container .chat-box {
+  width: 100%;
+  max-width: 600px;
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,30 @@
+/* Content.css */
+
+.content {
+    flex: 1;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center; /* 콘텐츠 가운데 정렬 */
+  }
+  
+  .content h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #3b82f6;
+    margin-bottom: 1.5rem;
+  }
+  
+  .content .button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .content .unity-game-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  
